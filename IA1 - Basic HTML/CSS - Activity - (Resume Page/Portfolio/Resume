@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Queenie Sanico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section h2 {
+            font-size: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .personal-info, .skills, .experience, .education, .achievements {
+            margin-bottom: 20px;
+        }
+        .personal-info p {
+            margin: 5px 0;
+        }
+        .skills ul, .experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li, .experience ul li {
+            background-color: #f0f0f0;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        .experience ul li {
+            background-color: #e8f5e9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="a.jpg" alt="Queenie Sanico's Photo">
+            <h1>Queenie Sanico</h1>
+            <p>Balinad, Polangui, Albay</p>
+            <p>Email: queeniesanico2@gmail.com | Phone: 09653259439</p>
+        </div>
 
+        <div class="section">
+            <h2>Objective</h2>
+            <p>Recent Information Systems graduate with a strong foundation in data management, systems analysis, and IT solutions development. Seeking to leverage technical skills and academic knowledge in a dynamic role where I can contribute to optimizing business processes and support IT infrastructure. Eager to apply problem-solving abilities and work collaboratively to drive innovation and efficiency within a forward-thinking organization.</p>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <p><strong>Tertiary Education:</strong></p>
+            <p>Bachelor of Information Systems, Bicol University Polangui, Polangui, Albay (2022-2027)</p>
+            
+            <p><strong>Secondary Education:</strong></p>
+            <p>Ponso Polangui Albay, Polangui Albay (2017-2021)</p>
+            <p>Polangui General Comprehensive High School, Polangui Albay (2021-2023)</p>
+            
+            <p><strong>Elementary Education:</strong></p>
+            <p>Balinad Polangui Albay, Polangui Albay (2011-2017)</p>
+        </div>
+
+        <div class="section achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>2016-2017 Academic Achiever</li>
+                <li>2017-2018 Academic Achiever</li>
+                <li>2018-2019 Academic Achiever</li>
+                <li>2019-2020 Academic Achiever</li>
+                <li>2020-2021 Academic Achiever</li>
+                <li>2021-2022 Academic Achiever</li>
+                <li>2022-2023 Academic Achiever</li>
+            </ul>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Collaboration and Teamwork</li>
+                <li>Data Management</li>
+                <li>Programming Languages</li>
+                <li>Communication</li>
+            </ul>
+        </div>
+
+        <div class="section experience">
+            <h2>Experience</h2>
+            <p><strong>Freelance Web Developer</strong> - September 2025 – Present</p>
+            <ul>
+                <li>Designed and implemented user-friendly websites for small businesses using HTML, CSS, and JavaScript.</li>
+                <li>Ensured responsive design for various devices, improving client satisfaction.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>References</h2>
+            <p>Nestor 'Toy' Awayan | Phone: 09949940240</p>
+        </div>
+    </div>
+</body>
+</html>
