@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gill-sans-2');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400&display=swap');
+
+/* General Body Styles */
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #973131;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.header .underline {
+    width: 100%;
+    height: 5px;
+    background-color: #f5e7b2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    color: white;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #f5e7b2;
+}
+
+.table th {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+}
+
+.table td {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #3d3d3d;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #2d2d2d;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+/* Button Styles */
+.btn-custom {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: #973131;
+}
+
+.btn-danger {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+}
+
+/* Sales Analytics Section */
+#analytics table {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+#analytics th, #analytics td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #f5e7b2;
+}
+
+#analytics th {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    background-color: #973131;
+}
+
+#analytics td {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+}
+
+#analytics .badge {
+    background-color: #f5e7b2;
+    color: #973131;
+    font-weight: bold;
+}
+
+/* Exit Button Section */
+.text-center {
+    text-align: center;
+    margin-top: 30px;
+}
