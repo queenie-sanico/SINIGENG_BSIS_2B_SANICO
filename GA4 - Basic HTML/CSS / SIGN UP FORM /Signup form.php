@@ -14,10 +14,11 @@
 </head>
 
 <body>
-  <div class="name text-center py-4">
+  <!-- Site Header -->
+  <header class="name text-center py-4">
     <h1>DAZZLE OASIS</h1>
     <div class="underline my-2"></div>
-  </div>
+  </header>
 
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg">
@@ -32,16 +33,16 @@
       </div>
 
       <!-- Search Bar -->
-      <div class="search-bar d-flex">
+      <div class="search-bar">
         <form action="search.php" method="get" class="d-flex">
-           <input type="text" name="search" placeholder="Search..." class="form-control" />
-           <button type="submit" class="btn btn-outline-secondary">
+          <input type="text" name="search" placeholder="Search..." class="form-control" />
+          <button type="submit" class="btn btn-outline-secondary">
             <i class="fas fa-search"></i>
-           </button>
+          </button>
         </form>
       </div>
 
-      <!-- Icons -->
+      <!-- User and Cart Icons -->
       <div class="icons">
         <a href="loginform.php" class="fas fa-user me-3"></a>
         <a href="loginform.php" class="fas fa-shopping-bag"></a>
@@ -49,8 +50,8 @@
     </div>
   </nav>
 
-  <!-- Sign-Up Form -->
-  <div class="login-container container my-5">
+  <!-- Sign-Up Form Section -->
+  <main class="login-container container my-5">
     <h2 class="text-center mb-4">Sign Up</h2>
     <form action="signup process.php" method="POST">
       <div class="form-group mb-3">
@@ -105,7 +106,7 @@
     <p class="text-center mt-3">
       Already have an account? <a href="login form.php" class="register-link">Login</a>
     </p>
-  </div>
+  </main>
 </body>
 
 </html>
