@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gill-sans-2');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400&display=swap');
+
+/* General Body Styles */
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #973131;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.header .underline {
+    width: 100%;
+    height: 5px;
+    background-color: #f5e7b2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #973131;
+    padding: 15px 0;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-buttons a {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-buttons a:hover {
+    background-color: white;
+    color: #973131;
+}
+
+/* Custom Button Styles */
+.btn-custom {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: #973131;
+}
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-bar input {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 0px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: white;
+    color: #973131;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+/* Icon Styles */
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.icons a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.icons a:hover {
+    color: #f5e7b2;
+    transform: scale(1.1);
+}
+
+/* Video Container Styles */
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section Title Styles */
+.section-title {
+    font-family: 'Gill Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+/* Card Styles */
+.card {
+    background: none;
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+.card img {
+    border: 2px solid white;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.card-text {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    color: #f5e7b2;
+}
+
+/* Section Head Styles */
+.section-head {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+/* Special Image Styling */
+.special-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.special-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Special Text Styling */
+.special-title {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.special-text {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .special-image {
+        max-width: 100%;
+    }
+}
+
+/* HTML Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* About Title Styles */
+.about-title {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.about-title h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.about-text {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.col-md-6 img {
+    border: 2px solid white;
+    border-radius: 0.25rem;
+  }
