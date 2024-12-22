@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gill-sans-2');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400&display=swap');
+
+/* General Body Styles */
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #973131;
+    color: white;
+}
+
+/* Catalog Title */
+.catalog-title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #f5e7b2;
+}
+
+/* Shopping Bag Section */
+.shopping-bag {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f5e7b2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.shopping-bag ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+    color: #973131;
+}
+
+.shopping-bag ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #973131;
+}
+
+.shopping-bag ul li:last-child {
+    border-bottom: none;
+}
+
+/* Place Order Button */
+.btn-custom {
+    display: block;
+    width: 200px;
+    margin: 20px auto 0;
+    text-align: center;
+    color: #973131;
+    border: 2px solid #973131;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #973131;
+    color: white;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #973131;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    margin-top: 40px;
+}
